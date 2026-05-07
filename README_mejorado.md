@@ -1,4 +1,4 @@
-# 📊 Nuxt Dashboard Admin Template
+# Nuxt Dashboard Admin Template
 
 [![Nuxt](https://img.shields.io/badge/Nuxt-4.4-00DC82?logo=nuxt&labelColor=020420)](https://nuxt.com)
 [![Vue](https://img.shields.io/badge/Vue-3.5-4FC08D?logo=vue.js)](https://vuejs.org)
@@ -11,39 +11,48 @@ Un template moderno y completamente funcional de panel de administración constr
 
 ---
 
-## 🎯 Objetivo del Proyecto
+## Objetivo del Proyecto
 
 Proporcionar una **solución lista para producción** de dashboard administrativo que permita:
 
-- ✅ Gestionar clientes y miembros del equipo con modales interactivos
-- ✅ Visualizar métricas de ventas con gráficos interactivos (Unovis)
-- ✅ Administrar notificaciones, correos y mensajes
-- ✅ Configurar preferencias de seguridad y notificaciones
-- ✅ Cambiar entre modo claro y oscuro automáticamente
-- ✅ Acceso responsivo desde cualquier dispositivo
-- ✅ Código tipado completamente con TypeScript
-- ✅ CI/CD integrado con GitHub Actions
-- ✅ Fácil de extender con nuevas páginas y funcionalidades
-- ✅ Mantenimiento automático de dependencias con Renovate
+- ✓ Gestionar clientes y miembros del equipo con modales interactivos
+- ✓ Visualizar métricas de ventas con gráficos interactivos (Unovis)
+- ✓ Administrar notificaciones, correos y mensajes
+- ✓ Configurar preferencias de seguridad y notificaciones
+- ✓ Cambiar entre modo claro y oscuro automáticamente
+- ✓ Acceso responsivo desde cualquier dispositivo
+- ✓ Código tipado completamente con TypeScript
+- ✓ CI/CD integrado con GitHub Actions
+- ✓ Fácil de extender con nuevas páginas y funcionalidades
+- ✓ Mantenimiento automático de dependencias con Renovate
 
 ---
 
-## 🚀 Características Principales
+## Características Principales
 
-- **🎨 Interfaz moderna**: Construida con Nuxt UI, Tailwind CSS v4 y componentes Vue 3
-- **🌗 Modo oscuro/claro**: Cambio automático según preferencias del sistema
-- **📱 Responsive**: Funciona perfectamente en desktop, tablet y móvil
-- **⌨️ Atajos de teclado**: Navegación rápida con comandos
-- **📊 Gráficos interactivos**: Visualización de datos con Unovis y Vue wrapper
-- **🔗 API integrada**: Endpoints listos para datos reales (customers, members, mails, notifications)
-- **📦 TypeScript**: Code intellisense completo y tipado fuerte
-- **🧪 Linting y validación**: ESLint integrado con validación de tipos
-- **🤖 CI/CD automático**: GitHub Actions para lint, typecheck y deploy
-- **🔄 Mantenimiento automático**: Renovate integrado para actualizaciones
+**Interfaz moderna:** Construida con Nuxt UI, Tailwind CSS v4 y componentes Vue 3
+
+**Tema oscuro/claro:** Cambio automático según preferencias del sistema
+
+**Responsive:** Funciona perfectamente en desktop, tablet y móvil
+
+**Atajos de teclado:** Navegación rápida con comandos
+
+**Gráficos interactivos:** Visualización de datos con Unovis y Vue wrapper
+
+**API integrada:** Endpoints listos para datos reales (customers, members, mails, notifications)
+
+**TypeScript:** Code intellisense completo y tipado fuerte
+
+**Linting y validación:** ESLint integrado con validación de tipos
+
+**CI/CD automático:** GitHub Actions para lint, typecheck y deploy
+
+**Mantenimiento automático:** Renovate integrado para actualizaciones
 
 ---
 
-## 📋 Requisitos Previos
+## Requisitos Previos
 
 - **Node.js** 18+ o superior (se recomienda 22+)
 - **pnpm** 10.33.2 (o npm/yarn compatible)
@@ -52,7 +61,7 @@ Proporcionar una **solución lista para producción** de dashboard administrativ
 
 ---
 
-## 🛠️ Instalación
+## Instalación
 
 ### 1. Clonar el repositorio
 
@@ -89,7 +98,7 @@ El dashboard estará disponible en: **http://localhost:3000**
 
 ---
 
-## 📖 Uso Básico
+## Uso Básico
 
 ### Estructura del Proyecto
 
@@ -188,17 +197,17 @@ public/
 
 | Página | Ruta | Descripción | Acceso |
 |--------|------|-------------|--------|
-| **Inicio** | `/` | Dashboard principal con estadísticas y gráficos | Menú lateral |
-| **Clientes** | `/customers` | Gestión de lista de clientes con modal de agregar/eliminar | Menú lateral |
-| **Inbox** | `/inbox` | Visualización de correos recibidos | Menú lateral |
-| **Configuración** | `/settings` | Página de configuración con subrutas | Menú usuario |
-| **Miembros** | `/settings/members` | Gestión de miembros del equipo | Configuración |
-| **Notificaciones** | `/settings/notifications` | Preferencias de notificaciones | Configuración |
-| **Seguridad** | `/settings/security` | Configuración de seguridad | Configuración |
+| Inicio | `/` | Dashboard principal con estadísticas y gráficos | Menú lateral |
+| Clientes | `/customers` | Gestión de lista de clientes con modal de agregar/eliminar | Menú lateral |
+| Inbox | `/inbox` | Visualización de correos recibidos | Menú lateral |
+| Configuración | `/settings` | Página de configuración con subrutas | Menú usuario |
+| Miembros | `/settings/members` | Gestión de miembros del equipo | Configuración |
+| Notificaciones | `/settings/notifications` | Preferencias de notificaciones | Configuración |
+| Seguridad | `/settings/security` | Configuración de seguridad | Configuración |
 
 ---
 
-## 💻 Ejemplos de Uso
+## Ejemplos de Uso
 
 ### Ejemplo 1: Iniciar el Dashboard
 
@@ -241,9 +250,9 @@ O simplemente haz clic en el icono de sol/luna en la esquina superior derecha.
 1. Haz clic en tu **avatar** de usuario (esquina superior derecha)
 2. Selecciona **"Settings"** del menú desplegable
 3. Explora las secciones:
-   - **Miembros**: Gestiona tu equipo
-   - **Notificaciones**: Personaliza alertas y notificaciones
-   - **Seguridad**: Configura contraseña y 2FA
+   - **Miembros:** Gestiona tu equipo
+   - **Notificaciones:** Personaliza alertas y notificaciones
+   - **Seguridad:** Configura contraseña y 2FA
 
 ### Ejemplo 5: Usar la Paleta de Comandos
 
@@ -255,7 +264,7 @@ Presiona `Cmd+K` (Mac) o `Ctrl+K` (Windows/Linux) para abrir la paleta de comand
 
 ---
 
-## 🔧 Comandos Disponibles
+## Comandos Disponibles
 
 ```bash
 # Desarrollo
@@ -275,7 +284,7 @@ pnpm postinstall      # Prepara Nuxt (se ejecuta automáticamente)
 
 ---
 
-## 🎨 Personalización
+## Personalización
 
 ### Cambiar Colores y Tema
 
@@ -348,25 +357,25 @@ defineProps({
 
 ---
 
-## 📊 Stack Tecnológico
+## Stack Tecnológico
 
 | Tecnología | Versión | Propósito |
 |------------|---------|----------|
-| **Nuxt** | 4.4+ | Framework meta Vue con SSR |
-| **Vue** | 3.5+ | Framework UI progresivo |
-| **Nuxt UI** | 4.7+ | Componentes de UI prebuilt profesionales |
-| **Tailwind CSS** | 4.2+ | Estilos utilities y responsive |
-| **TypeScript** | 6.0+ | Tipado estático y seguridad |
-| **Unovis** | 1.6+ | Visualización de datos avanzada |
-| **VueUse** | 14.3+ | Composables reutilizables |
-| **Date-fns** | 4.1+ | Utilidades de fechas y horarios |
-| **Zod** | 4.4+ | Validación de esquemas TypeScript |
-| **ESLint** | 10.3+ | Linting y análisis de código |
-| **Vite** | (integrado) | Build tool ultrarápido |
+| Nuxt | 4.4+ | Framework meta Vue con SSR |
+| Vue | 3.5+ | Framework UI progresivo |
+| Nuxt UI | 4.7+ | Componentes de UI prebuilt profesionales |
+| Tailwind CSS | 4.2+ | Estilos utilities y responsive |
+| TypeScript | 6.0+ | Tipado estático y seguridad |
+| Unovis | 1.6+ | Visualización de datos avanzada |
+| VueUse | 14.3+ | Composables reutilizables |
+| Date-fns | 4.1+ | Utilidades de fechas y horarios |
+| Zod | 4.4+ | Validación de esquemas TypeScript |
+| ESLint | 10.3+ | Linting y análisis de código |
+| Vite | (integrado) | Build tool ultrarápido |
 
 ---
 
-## 🚢 Despliegue
+## Despliegue
 
 ### Desplegar en Vercel (Recomendado)
 
@@ -408,33 +417,33 @@ node .output/server/index.mjs
 
 ---
 
-## 🔄 CI/CD con GitHub Actions
+## CI/CD con GitHub Actions
 
 El proyecto incluye CI automático que:
 
-- ✅ Ejecuta linting en cada push (ESLint)
-- ✅ Valida tipos TypeScript
-- ✅ Ejecuta tests (si los tienes)
-- ✅ Deploy automático a producción (opcional)
+- Ejecuta linting en cada push (ESLint)
+- Valida tipos TypeScript
+- Ejecuta tests (si los tienes)
+- Deploy automático a producción (opcional)
 
 Ver archivo `.github/workflows/ci.yml`
 
 ---
 
-## 🤖 Mantenimiento Automático con Renovate
+## Mantenimiento Automático con Renovate
 
 El proyecto usa **Renovate** para actualizar dependencias automáticamente:
 
-- 📦 Propone PRs con actualizaciones
-- 🔄 Mantiene el lock file actualizado
-- 🧪 Ejecuta CI automáticamente
-- 📋 Agrupa actualizaciones relacionadas
+- Propone PRs con actualizaciones
+- Mantiene el lock file actualizado
+- Ejecuta CI automáticamente
+- Agrupa actualizaciones relacionadas
 
 Instala la app: https://github.com/apps/renovate/installations/select_target
 
 ---
 
-## 🤝 Contribuir
+## Contribuir
 
 Las contribuciones son bienvenidas. Para cambios mayores:
 
@@ -452,13 +461,13 @@ pnpm typecheck # Valida tipos
 
 ---
 
-## 📝 Licencia
+## Licencia
 
 Este proyecto está licenciado bajo la licencia MIT. Ver archivo `LICENSE` para más detalles.
 
 ---
 
-## 🔗 Enlaces Útiles
+## Enlaces Útiles
 
 - [Documentación Nuxt 4](https://nuxt.com)
 - [Documentación Nuxt UI](https://ui.nuxt.com)
@@ -471,9 +480,9 @@ Este proyecto está licenciado bajo la licencia MIT. Ver archivo `LICENSE` para 
 
 ---
 
-## 🆘 Troubleshooting
+## Troubleshooting
 
-### ¿El servidor no inicia?
+### El servidor no inicia
 
 ```bash
 # Limpia caché y reinstala
@@ -482,7 +491,7 @@ pnpm install
 pnpm dev
 ```
 
-### ¿Errores de tipos TypeScript?
+### Errores de tipos TypeScript
 
 ```bash
 # Valida tu código
@@ -492,14 +501,14 @@ pnpm typecheck
 pnpm nuxt prepare
 ```
 
-### ¿Problemas con ESLint?
+### Problemas con ESLint
 
 ```bash
 # Ejecuta autofix
 pnpm lint --fix
 ```
 
-### ¿Cambios no se aplican?
+### Cambios no se aplican
 
 - Asegúrate de guardar el archivo
 - Verifica la consola del navegador (F12)
@@ -507,24 +516,24 @@ pnpm lint --fix
 
 ---
 
-## 📧 Soporte
+## Soporte
 
-¿Preguntas o problemas? 
+¿Preguntas o problemas?
 
-- 📍 Abre un **Issue** en GitHub
-- 💬 Contáctanos vía email
-- 🐛 Reporta bugs con descripción detallada y pasos para reproducir
+- Abre un **Issue** en GitHub
+- Contáctanos vía email
+- Reporta bugs con descripción detallada y pasos para reproducir
 
 ---
 
-## 🎉 Créditos
+## Créditos
 
 Basado en el template oficial de [Nuxt UI](https://ui.nuxt.com)
 
-Personalizaciones y mejoras por Guillermo
+Personalizaciones y mejoras por Guillermo Reherman
 
 ---
 
 **Última actualización:** 7 de mayo de 2026  
 **Versión:** 1.0.0  
-**Estado:** ✅ Producción
+**Estado:** Producción
